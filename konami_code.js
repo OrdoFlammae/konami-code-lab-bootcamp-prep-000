@@ -19,7 +19,13 @@ function onKeyDownHandler(e) {
   if (key === codes[index]) {
     index++;
     
-    if ()
+    if (index === codes.length) {
+      alert("Good Job!");
+    }
+  } else {
+    index = 0;
+    
+    alert("Try again");
   }
 }
 
