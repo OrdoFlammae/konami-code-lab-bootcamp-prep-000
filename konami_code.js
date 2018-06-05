@@ -24,8 +24,6 @@ function onKeyDownHandler(e) {
     }
   } else {
     index = 0;
-    
-    alert("I'm sory, that was wrong. Try again");
   }
 }
 
